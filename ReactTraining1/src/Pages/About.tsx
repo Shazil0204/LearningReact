@@ -3,8 +3,7 @@ import Navbar from "../Components/Navbar"
 function About() {
   return (
     <>
-    <Navbar />
-    <div className="text-6xl">About</div>
+    <Navbar bgColor="bg-teal-950" btnColor="bg-teal-700"/>
     </>
   )
 }

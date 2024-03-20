@@ -2,8 +2,7 @@ import Navbar from "../Components/Navbar";
 function Contact() {
   return (
     <>
-      <div className="text-6xl">Contact</div>
-      <Navbar />
+      <Navbar bgColor="bg-cyan-950" btnColor="bg-cyan-700"/>
     </>
   );
 }

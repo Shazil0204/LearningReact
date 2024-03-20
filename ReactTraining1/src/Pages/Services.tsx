@@ -3,8 +3,7 @@ import Navbar from "../Components/Navbar";
 function Services() {
   return (
     <>
-      <Navbar />
-      <div className="text-6xl">Services</div>
+      <Navbar bgColor="bg-green-950" btnColor="bg-green-700"/>
     </>
   );
 }
