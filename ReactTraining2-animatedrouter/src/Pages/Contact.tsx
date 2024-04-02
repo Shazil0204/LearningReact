@@ -1,4 +1,4 @@
-import transition from "../transition";
+import transition from "../Components/transition";
 
 function Contact() {
   return (

@@ -6,9 +6,9 @@ export default function Navbar() {
       <nav className="bg-gray-800 py-4">
         <div className="container mx-auto flex justify-between items-center">
           {/* Project Name */}
-          <a href="/" className="text-white text-lg font-bold">
+          <Link to="/" className="text-white hover:text-gray-300">
             Task Manager
-          </a>
+          </Link>
 
           {/* Navigation Links */}
           <ul className="flex space-x-4">
